@@ -8,7 +8,7 @@ document.write(A);     //using document.write() method
 var B = "Watch out!";  //assign string value to a variable
 window.alert(B);      //using window.alert() method
 
-document.write("The sign read \"Danger! Black Ice\"");
+document.write("The sign read \"Danger! Black Ice\"");  //use of escaping the quotes
 
 document.write("Get your ice skates, " + "it's time for some fun!"); //concatenating two strings
 
