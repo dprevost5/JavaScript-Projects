@@ -25,3 +25,7 @@ document.write(familyPets);
 var C = "We have a lot of pets ";  //assign string to a variable
 var D = "we love."                 //assign string to a variable
 document.write(C+D);               //concatenate the variables
+
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date();  //use document.getElementById method to return the element with id attribute "demo"
+}
