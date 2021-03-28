@@ -1,11 +1,11 @@
 function addition_Function() {                 //create function
-    var addition = 10 + 10;                   //assign variable name "addition" and use the addition operator to assign the value
+    var addition = 10 + 10;                   //assign variable name "addition" and use the addition operator in an expression to assign the value
     document.getElementById("Math").innerHTML = "10 + 10 = " + addition;   //use the text of "10 + 10 = " plus the variable "addition" to display the math expression in the HTML doc
 }
 
-function subtraction_Function() {
-    var Subtraction = 10 - 10;
-    document.getElementById("sub").innerHTML = "10 - 10 = " + Subtraction;
+function subtraction_Function() {              //create function
+    var Subtraction = 10 - 10;                //assign variable name "Subtraction" and use the subtraction operator in an expression to assign the value
+    document.getElementById("sub").innerHTML = "10 - 10 = " + Subtraction;  //
 }
 
 function multiply_Function() {
