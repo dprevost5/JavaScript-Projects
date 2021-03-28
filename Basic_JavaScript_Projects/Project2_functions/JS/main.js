@@ -9,3 +9,9 @@ function myFunction() {     //create function
     sentence += " in the morning.";  //concatenate the string
     document.getElementById("concatenate").innerHTML = sentence;  //use document.getElementById method to return element with ID attribute "concatenate"
 }
+
+function myFunction2() {    //create function
+    document.getElementById("change").innerHTML = "Do you love coffee?";  //use document.getElementById method to return element with ID attribute "change"
+    var x = document.getElementById("change");  //assign value to variable so x = the element with id attribute "change"
+    x.style.color = "blue";    //style font color so x = blue
+}
