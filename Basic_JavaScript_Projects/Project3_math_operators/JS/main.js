@@ -1,6 +1,6 @@
-function addition_Function() {
-    var addition = 10 + 10;
-    document.getElementById("Math").innerHTML = "10 + 10 = " + addition;
+function addition_Function() {                 //create function
+    var addition = 10 + 10;                   //assign variable name "addition" and use the addition operator to assign the value
+    document.getElementById("Math").innerHTML = "10 + 10 = " + addition;   //use the text of "10 + 10 = " plus the variable "addition" to display the math expression in the HTML doc
 }
 
 function subtraction_Function() {
@@ -28,9 +28,9 @@ function modulus_Operator() {
     document.getElementById("modulus").innerHTML = "When you divide 25 by 6 you have a remainder of: " + simple_Math;
 }
 
-function negation_Operator() {
-    var x = 10;
-    document.getElementById("negation").innerHTML = -x;
+function negation_Operator() {    //create function
+    var x = 10;                   //assign variable x the value of 10
+    document.getElementById("negation").innerHTML = -x;   //use negation operator to display the negative value of x
 }
 
 function plusandminus() {
@@ -47,4 +47,4 @@ function rando_Function() {
     document.getElementById("rando").innerHTML = Math.floor(Math.random() * 100);    //create a window alert that displays a random number between 0 and 100
 }
 
-document.getElementById("method").innerHTML = Math.floor(4.7);
+document.getElementById("method").innerHTML = Math.floor(4.7);   //display number rounded down by using a math object method
