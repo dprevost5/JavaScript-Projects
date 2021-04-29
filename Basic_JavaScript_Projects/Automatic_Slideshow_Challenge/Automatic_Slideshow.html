@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Automatic Slideshow Challenge</title>
+        <link rel="stylesheet" type="text/css" href="CSS/style_slideshow.css">
+        <script src="https:ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div id="slideshow">
+            <div>
+                <img src="img/goa_small_bird_202958.jpg">
+            </div>
+            <div>
+                <img src="img/small_green_tree_200348.jpg">
+            </div>
+            <div>
+                <img src="img/hummingbird.jpg">
+            </div>
+            <div>
+                Random!
+            </div>
+        </div>
+    </body>
+
+    <script>
+        $("#slideshow > div:gt(0)").hide();
+
+        setInterval(function() {
+            $('#slideshow > div:first')
+            .fadeIn(1000)
+            .next()
+            .fadeIn(1000)
+            .end()
+            .appendTo('#slideshow');
+        }, 3000);
+
+    </script>
+
+
+</html>
